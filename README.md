@@ -2,7 +2,7 @@
 
 This repository contains the complete code and documentation for my internship project at **Adrosonic**, focusing on **Optimization in Large Language Models** across multiple domains, culminating in a novel **Multimodal Financial Sentiment Classification** system.
 
-## 📌 Overview
+## Overview
 The project is structured into five progressive phases:
 
 1. **Financial Sentiment Classification (Text-only)** – Baseline models trained on the Financial PhraseBank dataset using DistilBERT, MiniTransformer, and TinyTransformer.
@@ -13,7 +13,7 @@ The project is structured into five progressive phases:
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 - **Model depth and optimizer choice** significantly affect performance in small datasets.
 - **Adafactor with LR decay** and **warmup steps** improve multilingual robustness.
 - **Explainability tools** validate predictions in high-stakes domains.
@@ -21,7 +21,7 @@ The project is structured into five progressive phases:
 
 ---
 
-## 📊 Results Snapshot
+## Results Snapshot
 | Phase | Best Model | Accuracy | Macro F1 |
 |-------|-----------|----------|----------|
 | Financial (Text) | DistilBERT | 76.80% | 0.6115 |
@@ -31,18 +31,4 @@ The project is structured into five progressive phases:
 
 ---
 
-## 📂 Repository Layout
-- `phase1_financial_phrasebank/` – Code for baseline financial sentiment experiments.
-- `phase2_multilingual_sentiment/` – Multilingual models and tuning.
-- `phase3_hp_tuning_xlm_roberta/` – Deep HP tuning scripts.
-- `phase4_medical_text_xai/` – Medical classification with XAI.
-- `phase5_multimodal_financial_sentiment/` – Novel multimodal model code.
-- `methodology.md` – Step-by-step workflow.
-- `experiments.md` – Results & tables.
-- `references.md` – Citations.
 
----
-
-## ⚙️ Requirements
-```bash
-pip install -r requirements.txt
